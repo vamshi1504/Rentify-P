@@ -4,7 +4,7 @@ import { errorHandler } from "../utils/error.js";
 import Listing from "../models/listing.model.js";
 
 export const test = (req, res) => {
-  res.send("Test route being called!!!");
+  res.send("Route called");
 };
 
 export const updateUser = async (req, res, next) => {
